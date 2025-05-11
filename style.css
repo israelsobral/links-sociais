@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Barlow", sans-serif;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.925);
+}
+
+section {
+    background-color: rgb(28, 28, 28);
+    width: 400px;
+    height: 570px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+h1 {
+    color: white;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+}
+
+p#destaque {
+    color: rgb(213, 255, 47);
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+p#descricao {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+div.quadrado {
+    background-color: rgb(48, 47, 47);
+    font-weight: 600;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    padding: 13px;
+}
+
+div.quadrado:hover {
+    background-color: rgb(213, 255, 47);
+    color: rgb(28, 28, 28);
+    cursor: pointer;
+}
+
+div#quadrado-1 {
+    margin-bottom: 20px;
+}
+
+div#quadrado-2 {
+    margin-bottom: 20px;
+}
+
+div#quadrado-3 {
+    margin-bottom: 20px;
+}
+
+div#quadrado-4 {
+    margin-bottom: 20px;
+}
